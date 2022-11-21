@@ -52,7 +52,7 @@ margin: 20px;
 table 
 {
     width: 100%;
-    background-color:rgb(108, 158, 250);
+    background-color:#c9dcfc;
  padding: 10px;
  margin: 10px;
  
@@ -62,7 +62,7 @@ table
 }
 table :first-child
 {
-    background-color:rgb(130, 174, 255);
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
     padding: 10px;
     margin: 10px;
     border-top-right-radius: 10px;
@@ -73,7 +73,7 @@ table :first-child
 
 table :nth-child(2n) 
 {
-    background-color:rgb(130, 174, 255);
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
     padding: 10px;
     margin: 10px;
     
@@ -115,8 +115,8 @@ table :nth-child(2n)
 
 form
 {
- 
-    background-color: cornflowerblue;
+
+    background-color: #c9dcfc;
     padding: 30px;
     margin: 50px;
     border: 1px solid ;
