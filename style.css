@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body
+{
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    font-family:'Roboto', Courier, monospace;
+font-size:medium;
+font-weight: 450;   
+}
+
+
+.all
+{
+    margin: auto; 
+    max-width:  800px;
+}
+.inf
+{
+    padding: 20px;
+    margin: 20px;
+
+    background-color:#ffffff ;
+    border-radius: 20px;
+    border: 1px solid ;
+}
+.foto
+{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    
+   width: 300px;
+   height: 300px;
+    border-radius: 50%;
+    
+}
+.spisoc
+{
+
+    padding: 20px;
+margin: 20px; 
+    background-color: #ffffff;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+.table 
+{
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+table 
+{
+    width: 100%;
+    background-color:rgb(108, 158, 250);
+ padding: 10px;
+ margin: 10px;
+ 
+
+ border-radius: 10px;   
+ 
+}
+table :first-child
+{
+    background-color:rgb(130, 174, 255);
+    padding: 10px;
+    margin: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    border-radius: 5px; 
+}
+
+table :nth-child(2n) 
+{
+    background-color:rgb(130, 174, 255);
+    padding: 10px;
+    margin: 10px;
+    
+    
+    border-radius: 30px; 
+    
+    
+}
+
+
+
+.sms
+{
+   
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+
+.url{
+    text-decoration: none;
+    
+}
+  .url:visited 
+{
+ color:rgb(0, 0, 0);   
+} 
+.url:hover
+{
+ color:aqua;   
+ transition:all 0.5s ;
+}
+.url:active
+{
+ color:rgb(0, 0, 0);   
+}
+
+form
+{
+    width: 500px;
+    background-color: cornflowerblue;
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid ;
+    border-radius: 20px;
+    
+}
+form input
+{
+    margin: 10px;
+    width: 100%;
+}
